@@ -5,7 +5,7 @@
 > **CSCI-4364/6364 S26 — Machine Learning**
 > George Washington University · Department of Computer Science
 
-**Abenezer Golda** · Team Member 2 · Team Member 3
+**Abenezer Golda** · **Abiy Mamo** · **Rufai Yakubu**
 
 ---
 
