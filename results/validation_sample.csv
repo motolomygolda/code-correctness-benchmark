@@ -1,0 +1,10 @@
+problem_id,tier,model,sample_idx,auto_label,error_type,error_message,standard_passed,boundary_passed,adversarial_passed,manual_label,notes
+medium_012,Medium,gpt35,0,Runtime,,None,0,0,0,,
+easy_003,Easy,gpt35,0,Algorithmic,,None,0,0,0,,
+hard_011,Hard,gpt35,1,Runtime,,None,0,0,0,,
+hard_010,Hard,gpt35,2,Runtime,,None,0,0,0,,
+hard_017,Hard,codellama,0,Syntactic,SyntaxError,"SyntaxError: expected ':' (<solution>, line 1)",0,0,0,,
+hard_022,Hard,codellama,1,Algorithmic,,None,0,0,0,,
+hard_022,Hard,gpt35,2,Runtime,,None,0,0,0,,
+hard_023,Hard,codellama,1,Runtime,,None,0,0,0,,
+medium_006,Medium,gpt35,2,Syntactic,SyntaxError,"SyntaxError: expected ':' (<solution>, line 1)",0,0,0,,

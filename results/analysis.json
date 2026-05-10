@@ -1,0 +1,835 @@
+{
+  "pass_at_k": {
+    "gpt35": {
+      "Easy": {
+        "pass@1": {
+          "mean": 0.9,
+          "ci_lower": 0.8333,
+          "ci_upper": 0.9556,
+          "n_problems": 30,
+          "values": [
+            0.6667,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            0.6667,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.3333,
+            0.6667
+          ]
+        },
+        "pass@3": {
+          "mean": 1.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "Medium": {
+        "pass@1": {
+          "mean": 0.7444,
+          "ci_lower": 0.6444,
+          "ci_upper": 0.8333,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            0.6667,
+            0.3333,
+            1.0,
+            0.3333,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            0.0,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            0.6667,
+            1.0,
+            0.3333,
+            0.6667,
+            0.3333,
+            0.6667
+          ]
+        },
+        "pass@3": {
+          "mean": 0.9667,
+          "ci_lower": 0.9,
+          "ci_upper": 1.0,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "Hard": {
+        "pass@1": {
+          "mean": 0.8111,
+          "ci_lower": 0.7222,
+          "ci_upper": 0.8889,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            0.0,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            0.3333,
+            0.6667,
+            1.0,
+            0.6667,
+            0.3333,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.6667
+          ]
+        },
+        "pass@3": {
+          "mean": 0.9667,
+          "ci_lower": 0.9,
+          "ci_upper": 1.0,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    },
+    "codellama": {
+      "Easy": {
+        "pass@1": {
+          "mean": 0.8778,
+          "ci_lower": 0.8,
+          "ci_upper": 0.9444,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.3333,
+            1.0,
+            1.0,
+            1.0,
+            0.3333,
+            1.0,
+            0.3333,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            1.0
+          ]
+        },
+        "pass@3": {
+          "mean": 1.0,
+          "ci_lower": 1.0,
+          "ci_upper": 1.0,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "Medium": {
+        "pass@1": {
+          "mean": 0.8,
+          "ci_lower": 0.7,
+          "ci_upper": 0.8889,
+          "n_problems": 30,
+          "values": [
+            0.6667,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            0.3333,
+            1.0,
+            0.6667,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            0.6667,
+            1.0,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.3333,
+            1.0,
+            0.6667,
+            1.0,
+            0.6667
+          ]
+        },
+        "pass@3": {
+          "mean": 0.9667,
+          "ci_lower": 0.9,
+          "ci_upper": 1.0,
+          "n_problems": 30,
+          "values": [
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      },
+      "Hard": {
+        "pass@1": {
+          "mean": 0.7889,
+          "ci_lower": 0.7,
+          "ci_upper": 0.8778,
+          "n_problems": 30,
+          "values": [
+            0.0,
+            1.0,
+            1.0,
+            0.6667,
+            1.0,
+            1.0,
+            1.0,
+            0.3333,
+            1.0,
+            1.0,
+            1.0,
+            0.3333,
+            1.0,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            0.6667,
+            0.6667,
+            1.0,
+            0.6667,
+            0.6667,
+            0.6667,
+            0.6667,
+            1.0,
+            1.0,
+            0.6667,
+            0.6667,
+            1.0,
+            0.6667
+          ]
+        },
+        "pass@3": {
+          "mean": 0.9667,
+          "ci_lower": 0.9,
+          "ci_upper": 1.0,
+          "n_problems": 30,
+          "values": [
+            0.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0,
+            1.0
+          ]
+        }
+      }
+    }
+  },
+  "taxonomy": {
+    "gpt35": {
+      "distribution": {
+        "Syntactic": 12,
+        "Runtime": 20,
+        "Algorithmic": 17,
+        "Edge-case": 0,
+        "Pass": 221
+      },
+      "proportions": {
+        "Syntactic": 0.24489795918367346,
+        "Runtime": 0.40816326530612246,
+        "Algorithmic": 0.3469387755102041,
+        "Edge-case": 0.0
+      },
+      "total": 270,
+      "total_pass": 221,
+      "total_failures": 49,
+      "details": {
+        "Syntactic": [
+          "easy_001",
+          "easy_029",
+          "medium_003",
+          "medium_006",
+          "medium_024",
+          "medium_028",
+          "medium_029",
+          "hard_003",
+          "hard_005",
+          "hard_006",
+          "hard_007",
+          "hard_021"
+        ],
+        "Runtime": [
+          "easy_021",
+          "easy_022",
+          "easy_029",
+          "medium_004",
+          "medium_004",
+          "medium_006",
+          "medium_007",
+          "medium_008",
+          "medium_012",
+          "medium_023",
+          "medium_027",
+          "medium_029",
+          "hard_005",
+          "hard_010",
+          "hard_010",
+          "hard_011",
+          "hard_014",
+          "hard_022",
+          "hard_026",
+          "hard_030"
+        ],
+        "Algorithmic": [
+          "easy_003",
+          "easy_019",
+          "easy_023",
+          "easy_030",
+          "medium_011",
+          "medium_013",
+          "medium_013",
+          "medium_013",
+          "medium_016",
+          "medium_017",
+          "medium_025",
+          "medium_027",
+          "medium_030",
+          "hard_005",
+          "hard_013",
+          "hard_014",
+          "hard_017"
+        ],
+        "Edge-case": []
+      }
+    },
+    "codellama": {
+      "distribution": {
+        "Syntactic": 10,
+        "Runtime": 30,
+        "Algorithmic": 8,
+        "Edge-case": 0,
+        "Pass": 222
+      },
+      "proportions": {
+        "Syntactic": 0.20833333333333334,
+        "Runtime": 0.625,
+        "Algorithmic": 0.16666666666666666,
+        "Edge-case": 0.0
+      },
+      "total": 270,
+      "total_pass": 222,
+      "total_failures": 48,
+      "details": {
+        "Syntactic": [
+          "easy_009",
+          "easy_015",
+          "easy_021",
+          "medium_007",
+          "medium_009",
+          "medium_017",
+          "medium_018",
+          "hard_012",
+          "hard_017",
+          "hard_024"
+        ],
+        "Runtime": [
+          "easy_005",
+          "easy_009",
+          "easy_013",
+          "easy_013",
+          "easy_015",
+          "easy_018",
+          "easy_019",
+          "easy_028",
+          "medium_003",
+          "medium_009",
+          "medium_011",
+          "medium_021",
+          "medium_022",
+          "medium_026",
+          "medium_026",
+          "medium_028",
+          "medium_030",
+          "hard_001",
+          "hard_001",
+          "hard_001",
+          "hard_004",
+          "hard_008",
+          "hard_008",
+          "hard_012",
+          "hard_016",
+          "hard_018",
+          "hard_021",
+          "hard_023",
+          "hard_028",
+          "hard_030"
+        ],
+        "Algorithmic": [
+          "medium_001",
+          "medium_013",
+          "medium_013",
+          "medium_013",
+          "medium_019",
+          "hard_019",
+          "hard_022",
+          "hard_027"
+        ],
+        "Edge-case": []
+      }
+    }
+  },
+  "taxonomy_by_tier": {
+    "gpt35": {
+      "Easy": {
+        "distribution": {
+          "Syntactic": 2,
+          "Runtime": 3,
+          "Algorithmic": 4,
+          "Edge-case": 0,
+          "Pass": 81
+        },
+        "proportions": {
+          "Syntactic": 0.2222222222222222,
+          "Runtime": 0.3333333333333333,
+          "Algorithmic": 0.4444444444444444,
+          "Edge-case": 0.0
+        },
+        "total": 90,
+        "total_pass": 81,
+        "total_failures": 9,
+        "details": {
+          "Syntactic": [],
+          "Runtime": [],
+          "Algorithmic": [],
+          "Edge-case": []
+        }
+      },
+      "Medium": {
+        "distribution": {
+          "Syntactic": 5,
+          "Runtime": 9,
+          "Algorithmic": 9,
+          "Edge-case": 0,
+          "Pass": 67
+        },
+        "proportions": {
+          "Syntactic": 0.21739130434782608,
+          "Runtime": 0.391304347826087,
+          "Algorithmic": 0.391304347826087,
+          "Edge-case": 0.0
+        },
+        "total": 90,
+        "total_pass": 67,
+        "total_failures": 23,
+        "details": {
+          "Syntactic": [],
+          "Runtime": [],
+          "Algorithmic": [],
+          "Edge-case": []
+        }
+      },
+      "Hard": {
+        "distribution": {
+          "Syntactic": 5,
+          "Runtime": 8,
+          "Algorithmic": 4,
+          "Edge-case": 0,
+          "Pass": 73
+        },
+        "proportions": {
+          "Syntactic": 0.29411764705882354,
+          "Runtime": 0.47058823529411764,
+          "Algorithmic": 0.23529411764705882,
+          "Edge-case": 0.0
+        },
+        "total": 90,
+        "total_pass": 73,
+        "total_failures": 17,
+        "details": {
+          "Syntactic": [],
+          "Runtime": [],
+          "Algorithmic": [],
+          "Edge-case": []
+        }
+      }
+    },
+    "codellama": {
+      "Easy": {
+        "distribution": {
+          "Syntactic": 3,
+          "Runtime": 8,
+          "Algorithmic": 0,
+          "Edge-case": 0,
+          "Pass": 79
+        },
+        "proportions": {
+          "Syntactic": 0.2727272727272727,
+          "Runtime": 0.7272727272727273,
+          "Algorithmic": 0.0,
+          "Edge-case": 0.0
+        },
+        "total": 90,
+        "total_pass": 79,
+        "total_failures": 11,
+        "details": {
+          "Syntactic": [],
+          "Runtime": [],
+          "Algorithmic": [],
+          "Edge-case": []
+        }
+      },
+      "Medium": {
+        "distribution": {
+          "Syntactic": 4,
+          "Runtime": 9,
+          "Algorithmic": 5,
+          "Edge-case": 0,
+          "Pass": 72
+        },
+        "proportions": {
+          "Syntactic": 0.2222222222222222,
+          "Runtime": 0.5,
+          "Algorithmic": 0.2777777777777778,
+          "Edge-case": 0.0
+        },
+        "total": 90,
+        "total_pass": 72,
+        "total_failures": 18,
+        "details": {
+          "Syntactic": [],
+          "Runtime": [],
+          "Algorithmic": [],
+          "Edge-case": []
+        }
+      },
+      "Hard": {
+        "distribution": {
+          "Syntactic": 3,
+          "Runtime": 13,
+          "Algorithmic": 3,
+          "Edge-case": 0,
+          "Pass": 71
+        },
+        "proportions": {
+          "Syntactic": 0.15789473684210525,
+          "Runtime": 0.6842105263157895,
+          "Algorithmic": 0.15789473684210525,
+          "Edge-case": 0.0
+        },
+        "total": 90,
+        "total_pass": 71,
+        "total_failures": 19,
+        "details": {
+          "Syntactic": [],
+          "Runtime": [],
+          "Algorithmic": [],
+          "Edge-case": []
+        }
+      }
+    }
+  },
+  "overlap": {
+    "overlap_matrix": {
+      "Pass": {
+        "Pass": 80,
+        "Runtime": 4
+      },
+      "Algorithmic": {
+        "Pass": 3,
+        "Algorithmic": 1
+      },
+      "Runtime": {
+        "Pass": 2
+      }
+    },
+    "both_fail": 1,
+    "total_problems": 90,
+    "gpt35_fails": 6,
+    "codellama_fails": 5,
+    "jaccard_similarity": 0.1
+  },
+  "pass3_recovery": {
+    "gpt35": {
+      "Syntactic": {
+        "recovered": 11,
+        "total": 12,
+        "rate": 0.9167
+      },
+      "Algorithmic": {
+        "recovered": 13,
+        "total": 17,
+        "rate": 0.7647
+      },
+      "Runtime": {
+        "recovered": 19,
+        "total": 20,
+        "rate": 0.95
+      }
+    },
+    "codellama": {
+      "Runtime": {
+        "recovered": 27,
+        "total": 30,
+        "rate": 0.9
+      },
+      "Syntactic": {
+        "recovered": 10,
+        "total": 10,
+        "rate": 1.0
+      },
+      "Algorithmic": {
+        "recovered": 5,
+        "total": 8,
+        "rate": 0.625
+      }
+    }
+  }
+}
