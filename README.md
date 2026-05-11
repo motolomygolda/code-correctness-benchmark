@@ -104,7 +104,7 @@ Despite producing similar aggregate failure distributions, the two models **fail
 │   └── findings.md                 # Auto-generated findings for all 4 RQs
 │
 ├── report/
-│   └── Project9_Report.docx        # Final project report
+│   └── Project9_Report.pdf        # Final project report
 │
 ├── config.py                       # All settings (API keys, paths, params)
 ├── run.sh                          # One-command pipeline runner
